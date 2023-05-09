@@ -1,4 +1,4 @@
-module.exports = class Biodata {
+class Biodata {
   constructor(name, birthPlace, birthDay, address) {
     this.name = name
     this.birthPlace = birthPlace
@@ -15,3 +15,5 @@ module.exports = class Biodata {
     `
   }
 }
+
+module.exports = Biodata
